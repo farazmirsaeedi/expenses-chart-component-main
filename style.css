@@ -118,10 +118,7 @@ body {
 .chart-days-prog-1:hover {
     background-color: hsl(186, 34%, 80%);
 }
-.chart-days-prog-1:hover
-+.show{
-    /* display: block; */
-}
+
 
 .show{
     background-color: var(--Dark-brown);
