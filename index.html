@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="head">
+    <div class="balance">
+
+      <p class="bal-text">My balance</p>
+
+      <h2 class="bal-prc">$921.48</h2>
+
+    </div>
+    <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+      <g fill="none" fill-rule="evenodd">
+        <circle fill="#382314" cx="48" cy="24" r="24" />
+        <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+      </g>
+    </svg>
+  </div>
+  <div class="main">
+    <h2 class="main-h2">Spending - Last 7 days</h2>
+
+    <div class="chart">
+      <div class="chart-days" id="cd1">
+        <p class="chart-days-p">mon</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd2">
+        <p class="chart-days-p">tue</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd3">
+        <p class="chart-days-p">wen</p>
+        <div class="chart-days-prog-1"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd4">
+        <p class="chart-days-p">thu</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd5">
+        <p class="chart-days-p">fri</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd6">
+        <p class="chart-days-p">sat</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+      <div class="chart-days" id="cd7">
+        <p class="chart-days-p">sun</p>
+        <div class="chart-days-prog"></div>
+        <div class="show"></div>
+      </div>
+    </div>
+    <hr class="hr">
+    <div class="footer">
+      <div class="f1">
+        <p class="pp">Total this month</p> 
+        <h1>$478.33</h1>
+      </div>
+      <div class="f2">
+        <p class="pd">+2.4%</p>
+        <p class="pp">from last month</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://ir.linkedin.com/in/faraz-mirsaeedi-84578b244">Faraz Mirsaeedi</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+ -->
